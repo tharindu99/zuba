@@ -8,6 +8,7 @@ import lsf.zuba.vizobj.ChartParameter;
 public class SyntaxChecker implements SyntaxCheckerConstants {
 	
 	static ChartParameter chart_obj = new ChartParameter();
+	
 
 	static final public ChartParameter Visualization() throws ParseException {
 		jj_consume_token(8);

@@ -7,7 +7,14 @@ public class ChartParameter {
 	private Axis x;
 	private Axis y;
 	private String DB_type;
+	private String Sql_query;
 	
+	public String getSql_query() {
+		return Sql_query;
+	}
+	public void setSql_query(String sql_query) {
+		Sql_query = sql_query;
+	}
 	public String getDB_type() {
 		return DB_type;
 	}
